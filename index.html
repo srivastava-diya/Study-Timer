@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/8699/8699048.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="stopwatch_box">
+            <div class="stopwatch_icon_box">
+                <img src="timer_24dp_EFEFEF_FILL0_wght400_GRAD0_opsz24.png" alt="stopwatch">
+            </div>
+            <div class="timer">
+                time
+            </div>
+            <div class="EnterTime">
+                <h3 style="margin-right: 10px;">FROM</h3>
+                <input type="time" id="time_from" style="height: 60px; width: 350px; font-size: 30px; text-align: center;">
+            </div>
+            <br>
+            <div class="EnterTime">
+                <h3 style="margin-right: 10px;">UPTO</h3>
+                <input id="time_upto" type="time" style="height: 60px; width: 350px; font-size: 30px; text-align: center;">
+            </div>
+            <br>
+            <br>
+            <div id="gobox">
+                <h1>GO</h1>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="code.js"></script>
+</html>
